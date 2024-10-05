@@ -1,0 +1,16 @@
+torch
+torchaudio 
+torchvision
+pandas
+numpy
+tqdm
+matplotlib
+seaborn 
+snownlp
+nltk
+huggingface-hub
+transformers
+scikit-learn
+scipy
+jieba
+statsmodels
