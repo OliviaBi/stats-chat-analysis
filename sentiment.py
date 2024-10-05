@@ -12,6 +12,7 @@ if __name__ == "__main__":
     # Set up environment
     save_path = "./result"
     data_path = "./data"
+    file_name = "./chats.json"
     seed = 20010410
     length = 1280 * 4
     contact = <contact_name>
@@ -27,7 +28,7 @@ if __name__ == "__main__":
     # Tasks: "chats-correlation", "llm-vs-bayesian", "chats-correlation-by-time"
     task = "chats-correlation"
     print("Loading chat data...")
-    with open(os.path.join(data_path, "temp.json"), "r", encoding="utf-8") as f:
+    with open(os.path.join(data_path, file_name), "r", encoding="utf-8") as f:
         chats_json = json.load(f)
     chats_data = chats_json.get("chats").get("list")
     # Load chat data
