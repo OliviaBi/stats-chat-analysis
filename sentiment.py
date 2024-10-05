@@ -19,6 +19,11 @@ if __name__ == "__main__":
     sender2 = <sender2_name>
     np.random.seed(seed)
     torch.manual_seed(seed)
+    
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
+    if not os.path.exists(data_path):
+        os.makedirs(data_path)
     # Tasks: "chats-correlation", "llm-vs-bayesian", "chats-correlation-by-time"
     task = "chats-correlation"
     print("Loading chat data...")
