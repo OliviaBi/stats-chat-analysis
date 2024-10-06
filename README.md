@@ -63,3 +63,7 @@ Based on personal chat history, the result of llm-vs-bayesion rejects the hypoth
   - The independence hypothesis of Naive Bayes may not awalys hold true, especially in chats that have rich context;
   - The generalization ability of DistilBERT is better than Bayesian inference since Bayesian inference relies heavily on the priori and feature representation, especially under complex and everchanging text condition, like numerous daily chats containing various topics;
   - The Vapnik-Chervonenkis dimension of Bayesian method is low due to its simplicity, making its generalization ability heavily rely on the consistency between the data and priori.
+
+## More Work In Progress
+
+Integrate the code to a web application. To be released soon.
